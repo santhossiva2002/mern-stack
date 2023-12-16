@@ -22,7 +22,7 @@ const Home = () => {
 
       try {
         const { data } = await axios.post(
-          "https://mern-stack-phi-topaz.vercel.app",  // Update this URL to your backend verification endpoint
+          "https://mern-stack-phi-topaz.vercel.app/",  // Update this URL to your backend verification endpoint
           {},
           { withCredentials: true }
         );
