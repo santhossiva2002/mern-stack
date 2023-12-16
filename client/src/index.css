@@ -1,0 +1,336 @@
+body {
+  background: #1a1a1d;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form_container {
+  background-color:black;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  position: relative;
+  left: 500px;
+  top: 100px;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.form_container > h2 {
+  margin-block: 1rem;
+  padding-block: 0.6rem;
+  color:#E33E39;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.form_container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  color:#E33E39;
+  
+
+
+}
+
+.form_container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  
+}
+
+.form_container input {
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.1rem;
+  outline: none;
+  
+}
+
+.form_container input::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+  
+}
+
+.form_container button {
+ 
+ 
+ 
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 15px;
+  background: none;
+  color: #e20422;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-weight: 900;
+  border: 2px solid #e20422;
+  cursor: pointer;
+}
+.sl{
+  text-shadow:  #1a1a1d;
+  color:#1a1a1d;
+  text-decoration: none;
+  
+  font-weight: 500;
+  font-size: 20px;
+  
+}
+.logo1 {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 600px;
+  bottom: 74px;
+}
+
+.head {
+  color: #e20422;
+  bottom: 250px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+  text-align: center;
+  color: #E33E39;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(254, 5, 5, 0.5);
+}
+
+.w {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 35px;
+  bottom: 210px;
+}
+
+.q {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 35px;
+  font-weight: 100;
+  bottom: 290px;
+}
+
+.buttons {
+  position: relative;
+  left: 92%;
+  bottom: 60px;
+  font-size: 15px;
+  background: none;
+  color: #e20422;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-weight: 900;
+  border: 2px solid #e20422;
+  cursor: pointer;
+}
+
+.btn1 {
+
+   position: relative;
+      left: 660px;
+      font-size: 15px;
+      background: none;
+      color: #e20422;
+      padding: 10px 20px;
+      border-radius: 40px;
+      font-weight: 900;
+      border: 2px solid #e20422;
+      cursor: pointer;
+      bottom: 300px;
+}
+
+button:hover {
+  color: #1a1a1d;
+  background-color: #e20422;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 20px;
+  text-shadow: 0 2px 3px rgba(246, 3, 3, 0.5);
+  transition: all 0.4s;
+}
+
+a:hover {
+  color: #e20422;
+  text-transform: uppercase;
+}
+
+/* Your existing CSS styles */
+
+/* Your existing CSS styles */
+
+/* Your existing CSS styles */
+
+.content {
+  position: relative;
+}
+
+.word {
+  transform: translateX(0); /* Initial position */
+  transition: transform 0.5s ease-in-out;
+}
+
+.word.move {
+  transform: translateX(-100%); /* Move 'word' div left */
+}
+
+.transport {
+  
+
+  transform: translateX(-100%); /* Initial position for 'transport' div */
+  transition: transform 0.5s ease-in-out;
+}
+.select{
+
+  bottom: 567px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+color: #E33E39;
+font-weight: 300;
+text-transform: uppercase;
+text-shadow: 0 2px 4px rgba(254, 5, 5, 0.5);
+}
+.way{
+
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 629px;
+  position: relative;
+
+}
+
+.cards{
+  display:flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 550px;
+  bottom: 50px;
+}
+.flip-card {
+ 
+  width: 190px;
+  height: 254px;
+  perspective: 1000px;
+  font-family: sans-serif;
+  bottom: 550px;
+  position: relative;
+  left: 550px;
+}
+
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+ 
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background: #1a1a1d;
+  color: #E33E39;
+}
+
+.flip-card-back {
+  background: #1a1a1d;
+  color:#E33E39;
+  transform: rotateY(180deg);
+}
+.transport.move {
+  transform: translateX(0); /* Move 'transport' div to the original position */
+}
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* Location of the box */
+  left: 500px;
+  bottom: 600px;
+  width: 30%; /* Full width */
+ /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ 
+}
+.popup-content{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  margin: auto;
+  padding: 30px;
+  border:1px solid #888;
+  width: 100%;
+  color: #E33E39;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #E33E39;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#s:hover{
+  color:whitesmoke;
+}
+#r:hover{
+  color:whitesmoke;
+}

@@ -1,0 +1,92 @@
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.description{
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(41, 39, 39);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    position: relative;
+    right: 130px;
+    top: 100px;
+}
+.description p {
+    max-width: 800px; /* Adjust the max-width according to your design */
+    text-align: justify; /* Justify the text for better readability */
+    margin: 0 auto; /* Center the paragraph within the available width */
+    line-height: 1.5; /* Set the line height for better spacing */
+  }
+.team {
+    max-width: 600px;
+    width: 100%;
+ position: relative;
+ left:400px;
+ top: -400px;
+    border-radius: 10px;
+    padding: 20px;
+   
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.description, .team :hover {
+    transform: scale(1.20);
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.team_member {
+    max-width: 300px;
+    width: 100%;
+   
+    border-radius: 10px;
+    padding: 20px;
+    
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team_member img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 20%; /* Make the image circular if needed */
+    margin-bottom: 10px;
+}
+
+
+/* .team-member strong {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+} */
+
+.team_member strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: rgba(254, 5, 5, 0.5);
+}
+.h2{
+    position: relative;
+    top: 30px;
+}

@@ -1,0 +1,425 @@
+body {
+    background: #1a1a1d;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.logo1 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 600px;
+    bottom: 74px;
+}
+
+.head {
+    color: #e20422;
+    bottom: 250px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    text-align: center;
+    color: #E33E39;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px rgba(254, 5, 5, 0.5);
+}
+
+.w {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    bottom: 210px;
+}
+
+.q {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    font-weight: 100;
+    bottom: 290px;
+}
+
+.buttons {
+    position: relative;
+    left: 92%;
+    bottom: 60px;
+    font-size: 15px;
+    background: none;
+    color: #e20422;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 900;
+    border: 2px solid #e20422;
+    cursor: pointer;
+}
+.trainbtn{
+  position: relative;
+  font-size: 15px;
+  background: none;
+  color: #e20422;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-weight: 900;
+  border: 2px solid #e20422;
+  cursor: pointer;
+  left: 10px;
+}
+
+
+.btn1 {
+  
+     position: relative;
+        left: 660px;
+        font-size: 15px;
+        background: none;
+        color: #e20422;
+        padding: 10px 20px;
+        border-radius: 40px;
+        font-weight: 900;
+        border: 2px solid #e20422;
+        cursor: pointer;
+        bottom: 300px;
+}
+
+button:hover {
+    color: #1a1a1d;
+    background-color: #e20422;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+  
+    transition: all 0.4s;
+}
+
+a:hover {
+    color: #e20422;
+    text-transform: uppercase;
+}
+
+hr {
+    height:1px;
+    border-width:0;
+    background-color:#e20422;
+  }
+
+  .vi{
+    border-left: 1px solid #e20422;
+    height: 1377px;
+    position: absolute;
+    left: 19%;
+    bottom: -790px;
+  }
+  .vi1{
+    border-left: 1px solid #079f74;
+    height:45px;
+    position: absolute;
+    left:243px;
+    bottom: 85px;
+  }
+
+.search{
+    height: auto;
+    width: 30%;
+}
+.container {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 6px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+ 
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  .MAIN{
+        position: relative;
+        left: 200px;
+     width: 80%;
+    bottom: -250px;
+    
+       
+  }
+  .s2{
+    height:1px;
+    border-width:0px;
+    width: 100%;
+   
+    position: absolute;
+    bottom: 390px;
+    
+  }
+
+.formdiv{
+  position: absolute;
+  left: 550px;
+  top: 200px;
+}
+
+#submit{
+  font-size: 15px;
+  background: none;
+  color: #e20422;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-weight: 900;
+  border: 2px solid #e20422;
+  cursor: pointer;
+ 
+  
+}
+#submit:hover {
+  color: #1a1a1d;
+  background-color: #e20422;
+}
+/* Style inputs */
+.form{
+  position: relative;
+  left: 250px;
+}
+#country1,#country2 {
+
+  padding: 12px 50px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.trainno{
+  position: relative;
+  bottom: 58px;
+  right:190px;
+}
+#trainNumber {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+ position: relative;
+ left: 5px;
+ width: auto;
+  font-size: 16px;
+}
+
+/* Focus Style for Train Number Input */
+#trainNumber:focus {
+  outline: none;
+  border-color: #e20422; /* Change color on focus */
+  box-shadow: 0 0 5px rgba(226, 4, 34, 0.5); /* Add a subtle box shadow on focus */
+}
+
+/* Placeholder Style for Train Number Input */
+#trainNumber::placeholder {
+  color: #999; /* Customize placeholder color */
+}
+
+/* Disabled Style for Train Number Input */
+#trainNumber:disabled {
+  background-color: #f2f2f2; /* Customize background color for disabled state */
+  cursor: not-allowed;
+}
+
+/* Button Style for Train Number Submit */
+
+#days,#time,.search-bar{
+    padding: 10px 5px;
+  margin: 10px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/* Add styles for the table */
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #1a1a1d;
+    color: whitesmoke;
+  }
+  
+  .my-table th {
+    background-color: #e20422;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px;
+    text-transform: uppercase;
+  }
+  
+  .my-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #e20422;
+  }
+  
+  .my-table tr:nth-child(even) {
+    background-color: #222222;
+  }
+  
+  .my-table tr:hover {
+    background-color: #333333;
+    color: #e20422;
+  }
+  .Rloader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 30px;
+    line-height: 1.2em;
+    height: 1.2em;
+    overflow: hidden;
+  }
+  
+  .Rloader:before {
+    content: "Loading...\ARoading...\ARAading...\ARAIding...\ARAILing...\ARAILWng...\ARAILWAY...\ARAILWAY...\ARAILWAY..\ARAILWAY.\ARAILWAY";
+    white-space: pre;
+    display: inline-block;
+    animation: l39 1s infinite steps(11) alternate;
+  }
+  .Aloader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 30px;
+    line-height: 1.2em;
+    height: 1.2em;
+    overflow: hidden;
+  }
+  
+  .Aloader:before {
+    content: "Loading...\A Aoading...\A AIading...\A AIRding...\A AIRWing...\A AIRWAng...\A AIRWAYg...\A AIRWAY...\A AIRWAY..\A AIRWAY.\A AIRWAY";
+    white-space: pre;
+    display: inline-block;
+    animation: l39 1s infinite steps(11) alternate;
+  }
+  
+  @keyframes l39 {
+    100% {
+      transform: translateY(-100%)
+    }
+  }
+  .loader1 {
+    width: 0;
+    height: 4.8px;
+    display: inline-block;
+    position: relative;
+    background: #FFF;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    animation: animFw 8s linear infinite;
+  }
+  
+  .loader1::after,
+    .loader1::before {
+    content: '';
+    width: 10px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    top: 9px;
+    right: -2px;
+    opacity: 0;
+    transform: rotate(-45deg) translateX(0px);
+    box-sizing: border-box;
+    animation: coli1 0.3s linear infinite;
+  }
+  
+  .loader1:before {
+    top: -4px;
+    transform: rotate(45deg);
+    animation: coli2 0.3s linear infinite;
+  }
+  
+  @keyframes animFw {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes coli1 {
+    0% {
+      transform: rotate(-45deg) translateX(0px);
+      opacity: 0.7;
+    }
+  
+    100% {
+      transform: rotate(-45deg) translateX(-45px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes coli2 {
+    0% {
+      transform: rotate(45deg) translateX(0px);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: rotate(45deg) translateX(-45px);
+      opacity: 0.7;
+    }
+  }
+    
+  
+  /* Style for Train Number Input */
+

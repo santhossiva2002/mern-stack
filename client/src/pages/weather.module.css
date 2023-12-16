@@ -1,0 +1,108 @@
+
+.buttons {
+  position: relative;
+  left: 92%;
+  bottom: 60px;
+  font-size: 15px;
+  background: none;
+  color: #e20422;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-weight: 900;
+  border: 2px solid #e20422;
+  cursor: pointer;
+}
+
+
+button:hover {
+  color: #1a1a1d;
+  background-color: #e20422;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 20px;
+  text-shadow: 0 2px 3px rgba(246, 3, 3, 0.5);
+  transition: all 0.4s;
+}
+
+a:hover {
+  color: #e20422;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.weatherInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.weatherInfoItem {
+  flex-basis: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color:#000000;
+  border-radius: 8px;
+}
+
+.weatherInfoLabel{
+  display: block;
+  color:#e20422;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.weatherInfoValue {
+  display: block;
+  font-weight: bold;
+}
+
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 10px 460px;
+  background-color: #1a1a1d;
+  padding: 20px;
+  box-shadow: 0 0 20px #000000;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 8px;
+  color: #e20422;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}

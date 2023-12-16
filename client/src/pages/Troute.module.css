@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.timeline-section {
+    background-color: #1a1a1d;
+    color: #e20422;
+    min-height: 100vh;
+    padding: 130px 15px; /* Decreased padding for a more compact design */
+}
+
+.timeline-items {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+input {
+    width: auto;
+}
+.timeline-items::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #e20422;
+    left: calc(50% - 1px);
+}
+
+.timeline-item {
+    margin-bottom: 20px; /* Decreased margin for a more compact design */
+    width: 100%;
+    position: relative;
+    transition: transform 0.6s ease-in-out;
+}
+.timeline-item:hover {
+    transform: scale(1.50); /* Increase the size on hover */
+    z-index: 100; /* Bring the hovered item to the front */
+   /* Add a shadow on hover */
+  
+    /* Additional styling for the hover state */
+    /* ... (your additional hover styles) ... */
+  }
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+    padding-right: calc(50% + 15px); /* Adjusted padding for a more compact design */
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    padding-left: calc(74% + -103px);/* Adjusted padding for a more compact design */
+}
+
+.timeline-dot {
+    height: 16px;
+    width: 16px;
+    background-color: #e20422;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10px;
+}
+
+.timeline-date {
+    font-size: 18px;
+    color: #e20422;
+    margin: 6px 0 10px; /* Adjusted margin for a more compact design */
+}
+
+.timeline-content {
+    background-color: #e20422;
+    padding: 20px; /* Decreased padding for a more compact design */
+    border-radius: 5px;
+}
+
+.timeline-content h3 {
+    font-size: 18px; /* Adjusted font size for a more compact design */
+    color: #ffffff;
+    margin: 0 0 8px; /* Adjusted margin for a more compact design */
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.timeline-content p {
+    color: #c8c8c8;
+    font-size: 14px; /* Adjusted font size for a more compact design */
+    font-weight: 300;
+    line-height: 18px; /* Adjusted line height for a more compact design */
+}
+.s2{
+    height:1px;
+    border-width:0px;
+    width: 100%;
+  
+    position: absolute;
+    bottom: 390px;
+    
+  }
+  .trainno{
+    position: relative;
+    top: 58px;
+    left:550px;
+  }
+  #trainNumber {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   position: relative;
+   left: 5px;
+   width: auto;
+    font-size: 16px;
+  }
+  
+  /* Focus Style for Train Number Input */
+  #trainNumber:focus {
+    outline: none;
+    border-color: #e20422; /* Change color on focus */
+    box-shadow: 0 0 5px rgba(226, 4, 34, 0.5); /* Add a subtle box shadow on focus */
+  }
+  
+  /* Placeholder Style for Train Number Input */
+  #trainNumber::placeholder {
+    color: #999; /* Customize placeholder color */
+  }
+  
+  /* Disabled Style for Train Number Input */
+  #trainNumber:disabled {
+    background-color: #f2f2f2; /* Customize background color for disabled state */
+    cursor: not-allowed;
+  }
+  
+  /* Button Style for Train Number Submit */
+  
+/* responsive */
+@media (max-width: 767px) {
+    .timeline-items::before {
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 25px; /* Adjusted padding for a more compact design */
+    }
+    .timeline-dot {
+        left: 0;
+    }
+}
