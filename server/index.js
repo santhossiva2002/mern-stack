@@ -26,7 +26,7 @@ app.listen(PORT, () => {
 });
 
 app.use(cors({
-  origin: ["https://react-f7s60540y-santhossiva2002s-projects.vercel.app"],
+  origin: ["https://mern-stack-client.vercel.app/"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
