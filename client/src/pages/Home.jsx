@@ -22,7 +22,7 @@ const Home = () => {
 
       try {
         const { data } = await axios.post(
-          "https://backend-daahy022d-santhossiva2002s-projects.vercel.app",  // Update this URL to your backend verification endpoint
+          "https://mern-stack-phi-topaz.vercel.app",  // Update this URL to your backend verification endpoint
           {},
           { withCredentials: true }
         );
