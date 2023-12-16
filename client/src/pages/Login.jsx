@@ -48,7 +48,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://backend-daahy022d-santhossiva2002s-projects.vercel.app/login",
+        "https://mern-stack-phi-topaz.vercel.app/login",
         {
           ...inputValue,
         },
