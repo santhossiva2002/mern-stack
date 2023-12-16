@@ -26,7 +26,7 @@ app.listen(PORT, () => {
 });
 
 app.use(cors({
-  origin: ["http://localhost:3000"],
+  origin: ["https://react-f7s60540y-santhossiva2002s-projects.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
@@ -41,7 +41,7 @@ app.use('/api',aScheduleRoutes);
 app.use('/api',authRoute);
 app.use('/get',authRoute);
 app.use('/users', userRoutes);
-app.use('/',feedback);
+app.use('/feed',feedback);
 app.get('/weather/:city', async (req, res) => {
   const { city } = req.params;
   const apiKey = 'FoU+UyLeAEqemHtjEVjj8w==nyM6k1PQ9CbrxIsU';

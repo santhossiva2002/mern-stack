@@ -23,7 +23,7 @@ const Feedback = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:4000/feedback', {
+      const response = await fetch('http://localhost:4000/feed/feedback', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

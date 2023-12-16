@@ -22,7 +22,7 @@ const Home = () => {
 
       try {
         const { data } = await axios.post(
-          "http://localhost:4000",
+          "https://backend-daahy022d-santhossiva2002s-projects.vercel.app",  // Update this URL to your backend verification endpoint
           {},
           { withCredentials: true }
         );
@@ -42,7 +42,7 @@ const Home = () => {
     };
 
     verifyCookie();
-  }, []); // Empty dependency array to run only once
+  }, [cookies.token, navigate, removeCookie]);
 
   const Logout = () => {
     removeCookie("token");

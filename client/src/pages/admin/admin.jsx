@@ -28,7 +28,7 @@ const Admin = () => {
         const responseCount = await fetch('http://localhost:4000/api/getCount');
         const dataCount = await responseCount.json();
 
-        const responseFeedback = await fetch('http://localhost:4000/countFeedback');
+        const responseFeedback = await fetch('http://localhost:4000/feed/countFeedback');
         const dataFeedback = await responseFeedback.json();
 
         setCounts({
