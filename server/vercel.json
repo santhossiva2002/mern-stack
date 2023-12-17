@@ -5,8 +5,7 @@
     { "src": "/.*", "dest": "server/index.js" }
   ],
   "env": {
-    MONGO_URL:mongodb+srv://santhossiva2002:qwertyuiop987654320@mernstack.lyl95bh.mongodb.net/AirRail
-    PORT:4000
-    TOKEN_KEY:yourSecretKeyHere
+    "MONGO_URL":"mongodb+srv://santhossiva2002:qwertyuiop987654320@mernstack.lyl95bh.mongodb.net/AirRail",
+    "TOKEN_KEY":"yourSecretKeyHere"
   }
 }
