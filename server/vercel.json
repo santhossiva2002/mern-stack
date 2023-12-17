@@ -5,6 +5,6 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "server/Routes/$1" },
-    { "src": "/(.*)", "dest": "server/Routes/AuthRoute.js" }
+    { "src": "/(.*)", "dest": "server/index.js" }
   ]
 }
