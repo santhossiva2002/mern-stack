@@ -94,7 +94,7 @@ const Login = () => {
         </div>
       )}
 
-      <h2>Lin Account</h2>
+      <h2>Login Account</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="email">Email</label>
