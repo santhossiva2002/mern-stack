@@ -34,9 +34,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true })); // Add this line for body parsing
 
-app.get('/', (req, res) => {
-  res.status(200).json({ message: 'Hi' });
-});
+app.use("/", authRoute);
 app.use('/api', adminRoutes);
 app.use('/api',aScheduleRoutes);
 app.use('/api',authRoute);
