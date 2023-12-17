@@ -3,6 +3,12 @@
   "builds": [{ "src": "server", "use": "@now/node-server" }],
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "server/index.js" }
-  ]
+    { "src": "/api/(.*)", "dest": "server/routes/$1" },
+    { "src": "/(.*)", "dest": "server/index.js" }
+  ],
+  "env": {
+    "MONGO_URL": "mongodb+srv://santhossiva2002:qwertyuiop987654320@mernstack.lyl95bh.mongodb.net/AirRail",
+    "PORT": 4000,
+    "TOKEN_KEY": "yourSecretKeyHere"
+  }
 }
