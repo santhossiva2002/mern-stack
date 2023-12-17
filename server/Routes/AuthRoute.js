@@ -3,7 +3,9 @@ const router = require('express').Router()
 
 router.post('/signup', Signup)
 router.post('/login', Login)
-router.post('/',userVerification)
+router.get('/', (req, res) => {
+  res.status(200).json({ message: 'Hi' });
+});
 router.get('/getCountUser', getCountUser);
 
 module.exports = router
