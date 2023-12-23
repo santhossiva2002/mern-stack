@@ -34,7 +34,7 @@ const AdminLogin = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/admin-login",
+        "https://server-qm6q.onrender.com/api/admin-login",
         {
           ...inputValue,
         },
