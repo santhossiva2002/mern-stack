@@ -48,7 +48,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://mern-stack-phi-topaz.vercel.app/login",
+        "https://server-qm6q.onrender.com/login",
         {
           ...inputValue,
         },
