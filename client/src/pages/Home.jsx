@@ -22,7 +22,7 @@ const Home = () => {
 
       try {
         const { data } = await axios.post(
-          "https://server-qm6q.onrender.com/",  // Update this URL to your backend verification endpoint
+          "https://server-qm6q.onrender.com",  // Update this URL to your backend verification endpoint
           {},
           { withCredentials: true }
         );
