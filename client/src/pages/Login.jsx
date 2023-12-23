@@ -59,7 +59,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          navigate("https://server-qm6q.onrender.com/");
+          navigate("/");
         }, 1000);
       } else {
         handleError(message);
